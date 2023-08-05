@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(4k-plane-cockpit-78fqotb573y3n09r.jpg);
+    object-fit: cover;
+    
+}
+.container{
+    position: relative;
+    max-width: 500px;
+    width:100;
+    background: #fff;
+    padding: 60px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+ 
+}
+.container header{
+    font-size: 17px;
+    color: rgb(31, 31, 165);
+    font-weight: bolder;
+    text-align: left;
+    
+
+}
+.container .form{
+    margin-top: 1px
+}
+.form .input-box{
+
+    width: 100%;
+    margin-top: 20px;
+
+}
+.input-box label{
+    color: #333;
+}
+.form .input-box input{
+    display: flex;
+    background-color: #f0ececc9;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #bcb4b4;
+    margin-top: 3px;
+    border: 1px solid#eae4e4;
+    border-style:ridge;
+    border-radius: 200px;
+    padding: 0 20px;
+
+}
+
+.form .column{
+    display: flex;
+    column-gap: 15px;
+}
+.form .check{
+    margin-top: 10px;
+    font-size:xx-small;
+    font-weight:700;
+    margin-top: 15px;
+
+}.form .button{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form button{
+    width: 200px;
+    height: 35px;
+    border-radius: 13px;
+    background-color:rgb(31, 31, 165);
+    color: #fff;
+    font-size: medium;
+    font-weight: 800;
+    border: none;
+}
+
+
+
+    
